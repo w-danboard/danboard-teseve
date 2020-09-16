@@ -1,0 +1,26 @@
+{
+  "name": "danboard-teseve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-danboard/danboard-teseve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-danboard/danboard-teseve/issues"
+  },
+  "homepage": "https://github.com/w-danboard/danboard-teseve#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "mime": "^2.4.6",
+    "nodemon": "^2.0.4"
+  }
+}
