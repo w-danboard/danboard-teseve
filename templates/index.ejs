@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../public/favicon.ico">
+  <link rel="stylesheet" href="/templates/style.css">
   <title>danboard-teseve</title>
 </head>
 <body>
+  <!-- 设置 -->
+  <form action="">
+    <p>端口号: <input type="text" name="port" value="3000"/></p>
+    <p>主机名: <input type="text" name="hostName" value="127.0.0.1"/></p>
+    <p>入口文件: <input type="text" name="entryFile"" value="index.html"/></p>
+    <p>是否使用Gzip: <input name="gzip"" type="checkbox" value="" /></p>
+    <p>是否使用缓存: <input name="cache" type="checkbox" value="" /></p>
+  </form>
   <section>
     <!-- 偷窥小狗 -->
     <div class="dog-wrap">
@@ -24,7 +33,7 @@
       </div>
       <div class="puppy">
         <div class="intro">
-          Danboard Http Server
+          Danboard Teseve
         </div>
         <div class="hide"></div>
         <div class="wrap bodyShow">
@@ -68,6 +77,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+      1111
     </div>
   </section>
 </body>
